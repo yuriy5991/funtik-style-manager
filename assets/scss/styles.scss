@@ -1,0 +1,22 @@
+#elementor-editor-wrapper {
+	
+	#elementor-panel-header{
+		background: linear-gradient(163.49deg, #5B77E7 26.86%, #49B5D2 61.48%, #26E8A8 96.97%);
+		border-radius: 3px 3px 0 0;
+	}
+	
+	.elementor-panel-navigation-tab{
+		&.elementor-active {
+			border-bottom-style: solid;
+			border-bottom-width: 4px;
+			border-image: linear-gradient(173.98deg, #5B77E7 -49.55%, #49B5D2 0.82%, #26E8A8 52.47%);
+			border-image-slice: 1;
+		}
+	}
+	
+	.elementor-button.elementor-nerd-box-link,
+	.elementor-panel-menu-item-exit-to-dashboard,
+	#elementor-mode-switcher:hover {
+		background-image: linear-gradient(173.98deg, #5B77E7 -49.55%, #49B5D2 0.82%, #26E8A8 52.47%);
+	}
+}
